@@ -1,0 +1,16 @@
+:root {
+  --mainBg: #eeffee;
+}
+$light-text: #000;
+
+body {
+  background-color: var(--mainBg);
+}
+
+.container {
+  h1 {
+    font-size: 6rem;
+    text-align: center;
+    color: $light-text;
+  }
+}
